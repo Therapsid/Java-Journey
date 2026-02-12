@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 public class QuotaChecker {
-    public static void main(String[] args){
+    static void main(String[] args) {
 
         //Initialize known values
         int quota = 10;
@@ -16,10 +16,9 @@ public class QuotaChecker {
         scanner.close();
 
         //Quick detour for the bonus earners
-        if(sales >= quota){
+        if (sales >= quota) {
             System.out.println("Congrats! You've met your quota.");
-        }
-        else{
+        } else {
             int salesShort = quota - sales;
             System.out.println("You did not make your quota. You were " + salesShort + " sales short.");
         }
