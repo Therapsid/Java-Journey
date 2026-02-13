@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class SingleDimArray {
-    static void main() {
+     static void main() {
 
         int[] arr = new int[3]; // 3 -> array length
         arr[0] = 10;
@@ -40,4 +40,6 @@ public class SingleDimArray {
 
 
     }
+
+    public void loopElements(int... arg){};// varargs
 }
