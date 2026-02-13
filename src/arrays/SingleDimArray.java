@@ -39,7 +39,9 @@ public class SingleDimArray {
         System.out.println(fullOfArray);
 
 
+
     }
 
-    public void loopElements(int... arg){};// varargs
+    // varargs
+    public void loopElements(int... arg){};
 }
